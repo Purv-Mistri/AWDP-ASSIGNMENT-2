@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="pgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="600" height="450" rx="20" fill="url(#pgrad)"/>
+  <circle cx="300" cy="180" r="110" fill="#ffffff" fill-opacity="0.06"/>
+  <circle cx="300" cy="180" r="85" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="40" y="35" width="130" height="32" rx="16" fill="#ef4444" fill-opacity="0.25"/>
+  <text x="105" y="56" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="800" fill="#ef4444" text-anchor="middle" letter-spacing="1">AUTHENTIC</text>
+  <text x="300" y="205" font-size="75" text-anchor="middle" dominant-baseline="middle">🎵</text>
+  <rect x="50" y="300" width="500" height="1" fill="#ffffff" fill-opacity="0.15"/>
+  <text x="300" y="350" font-family="'Segoe UI', system-ui, sans-serif" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">Boat Airdopes 141</text>
+  <text x="300" y="385" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#ef4444" text-anchor="middle">Boat · 42H Playtime</text>
+  <text x="300" y="415" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">EveNeed Verified Product</text>
+</svg>
